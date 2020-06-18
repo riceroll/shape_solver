@@ -2,7 +2,7 @@
 
 mkdir build
 pushd build
-cmake -D SWIG_PYTHON=1 ../ShapeOp.0.1.0
+cmake -D SWIG_PYTHON=1 ../ShapeOp
 cmake --build .
 popd
 

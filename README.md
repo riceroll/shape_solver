@@ -4,10 +4,18 @@ This is a Python interface for the [ShapeOp](http://shapeop.org/) geometric
 constraint solver. It improves on the SWIG interface by providing a more
 natural way to express constraints in the Python language.
 
-## Building
 
-Download ShapeOp 0.1.0 and place it in this directory. Then, run `build.sh` to
-compile it and copy the Python bindings.
+## Install
+```bash
+git clone https://github.com/riceroll/shape_solver.git
+cd shape_solver
+git clone https://github.com/riceroll/ShapeOp.git
+bash build.sh
+```
+change python library location in
+``shape_solver/ShapeOp/libShapeOp/bindings/python/CMakeLists.txt``
+ 
+
 
 ## Finding 2D solutions
 
